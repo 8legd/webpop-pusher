@@ -1,4 +1,4 @@
-# A WebPop library for the Pusher API (forked from [node-pusher](https://github.com/crossbreeze/node-pusher "node-pusher")
+# A WebPop library for the Pusher API based on [node-pusher](https://github.com/crossbreeze/node-pusher "node-pusher")
 What's [WebPop](http://www.webpop.com/ "Cloud CMS for Designers")?
 
 ## How to use from a WebPop extension
