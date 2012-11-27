@@ -1,8 +1,3 @@
-# A WebPop library for the Pusher API (forked from [node-pusher](https://github.com/crossbreeze/node-pusher "node-pusher")
-What's [WebPop](http://www.webpop.com/ "Cloud CMS for Designers")?
-
-## How to use from a WebPop extension
-```javascript
 var Pusher = require('./extensions/webpop-pusher/pusher');
 
 var pusher = Pusher.create({
@@ -29,18 +24,3 @@ pusher.trigger(channel, event, data, socket_id, function(err, req, res) {
 // to authorize the socket to subscribe to a private or presence channel
 // http://pusher.com/docs/auth_signatures
 pusher.auth(socket_id, channel, data);
-```
-
-## Credits
-
-Jaewoong Kim for [node-pusher](https://github.com/crossbreeze/node-pusher "node-pusher")
-
-JSCrypto for the [js crypto](http://code.google.com/p/jscryptolib/)
-
-This library is based on the work of Christian Bäuerlein and his library pusher
-
-## License
-
-This code is free to use under the terms of the MIT license.
-
-Note: JSCrypto is licensed under the GNU Lesser GPL.
